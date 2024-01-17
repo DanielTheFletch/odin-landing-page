@@ -2,3 +2,20 @@
 /* The Odin Project: Foundations */
 /* Landing Page */
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
