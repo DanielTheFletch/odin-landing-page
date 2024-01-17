@@ -10,8 +10,11 @@ body {
   margin: 0;
 }
 
+
+/* --- NAVIGATION --- */
 .navbar {
   background-color: #1F2937;
+  padding: 16px;
 
   display: flex;
   justify-content: space-around;
@@ -25,6 +28,8 @@ body {
   gap: 32px;
 
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -37,4 +42,51 @@ body {
   color: #F9FAF8;
   font-size: 24px;
   font-weight: bold;
+}
+
+
+/* --- HERO --- */
+.hero {
+  background-color: #1F2937;
+  padding: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 420px;
+  padding-right: 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-main-text {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.hero-secondary-text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero-button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.hero-img {
+  padding-left: 32px;
+  border: 5px solid white;
 }
