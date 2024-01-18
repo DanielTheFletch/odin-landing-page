@@ -96,6 +96,7 @@ body {
 
 /* --- RANDOM INFO --- */
 .information {
+  padding: 12px 0 96px;
   text-align: center;
 }
 
@@ -136,6 +137,7 @@ body {
 
 .quote {
   background-color: #E5E7EB;
+  padding: 48px 0;
 }
 
 .quote-container {
