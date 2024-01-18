@@ -89,4 +89,7 @@ body {
 .hero-img {
   padding-left: 32px;
   border: 5px solid white;
+  width: 360px;
+  height: 240px;
+  background-color: grey;
 }
