@@ -195,3 +195,13 @@ body {
   color: #F9FAF8;
   padding: 8px 16px;
 }
+
+
+/* --- FOOTER --- */
+footer {
+  background-color: #1F2937;
+  color: white;
+  margin: 0;
+  padding: 32px;
+  text-align: center;
+}
