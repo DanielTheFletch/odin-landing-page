@@ -157,3 +157,41 @@ body {
   font-weight: 900;
   margin: 0;
 }
+
+
+/* --- CALL TO ACTION --- */
+.call-to-action {
+  padding: 72px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  background-color: #3882F6;
+  border-radius: 4px;
+  color: #F9FAF8;
+  padding: 16px 32px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-text, .action-button {
+  margin: 0 64px;
+}
+
+.action-text:nth-of-type(1) {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.action-button {
+  background-color: transparent;
+  border: 3px solid #F9FAF8;
+  border-radius: 12px;
+  color: #F9FAF8;
+  padding: 8px 16px;
+}
