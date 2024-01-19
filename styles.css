@@ -236,8 +236,25 @@ h2 {
 /* --- FOOTER --- */
 footer {
   background-color: var(--color-dark);
-  color: white;
+  color: var(--color-light);
   margin: 0;
   padding: 32px;
   text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  color: var(--color-light);
+}
+
+.footer-link:hover {
+  opacity: 75%;
 }
