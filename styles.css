@@ -5,6 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+/* --- GENERAL PROPERTIES --- */
+:root {
+  --color-dark: #1F2937;
+  --color-light: #E5E7EB;
+  --color-accent: #3882F6;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -13,7 +20,7 @@ body {
 
 /* --- NAVIGATION --- */
 .navbar {
-  background-color: #1F2937;
+  background-color: var(--color-dark);
   padding: 16px;
 
   display: flex;
@@ -33,7 +40,7 @@ body {
 }
 
 .nav-link {
-  color: #E5E7EB;
+  color: var(--color-light);
   font-size: 18px;
   text-decoration: none;
 }
@@ -47,7 +54,7 @@ body {
 
 /* --- HERO --- */
 .hero {
-  background-color: #1F2937;
+  background-color: var(--color-dark);
   padding: 64px;
 
   display: flex;
@@ -72,15 +79,15 @@ body {
 }
 
 .hero-secondary-text {
-  color: #E5E7EB;
+  color: var(--color-light);
   font-size: 18px;
 }
 
 .hero-button {
-  background-color: #3882F6;
+  background-color: var(--color-accent);
   border: none;
   border-radius: 8px;
-  color: #E5E7EB;
+  color: var(--color-light);
   font-size: 18px;
   padding: 8px 16px;
   text-align: center;
@@ -101,7 +108,7 @@ body {
 }
 
 .information > h2 {
-  color: #1F2937;
+  color: var(--color-dark);
   font-size: 36px;
   font-weight: 900;
 }
@@ -121,7 +128,7 @@ body {
 }
 
 .info-img-placeholder {
-  border: 5px solid #3882F6;
+  border: 5px solid var(--color-accent);
   border-radius: 25%;
   height: 200px;
   width: 200px;
@@ -136,7 +143,7 @@ body {
 }
 
 .quote {
-  background-color: #E5E7EB;
+  background-color: var(--color-light);
   padding: 48px 0;
 }
 
@@ -169,7 +176,7 @@ body {
 }
 
 .action-container {
-  background-color: #3882F6;
+  background-color: var(--color-accent);
   border-radius: 4px;
   color: #F9FAF8;
   padding: 16px 32px;
@@ -199,7 +206,7 @@ body {
 
 /* --- FOOTER --- */
 footer {
-  background-color: #1F2937;
+  background-color: var(--color-dark);
   color: white;
   margin: 0;
   padding: 32px;
