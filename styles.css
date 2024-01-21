@@ -80,11 +80,11 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 64px;
 }
 
 .hero-text {
   max-width: 420px;
-  padding-right: 32px;
 
   display: flex;
   flex-direction: column;
@@ -115,11 +115,9 @@ h2 {
 }
 
 .hero-img {
-  padding-left: 32px;
-  border: 5px solid white;
-  width: 360px;
-  height: 240px;
-  background-color: grey;
+  width: 528px;
+  height: 320px;
+  box-shadow: 5px 7.5px 7.5px black;
 }
 
 /* --- RANDOM INFO --- */
@@ -131,7 +129,7 @@ h2 {
 .info-blocks {
   display: flex;
   justify-content: center;
-  gap: 64px;
+  gap: 128px;
 }
 
 .info-block {
@@ -142,11 +140,11 @@ h2 {
   align-items: center;
 }
 
-.info-img-placeholder {
-  border: 5px solid var(--color-accent);
-  border-radius: 25%;
-  height: 200px;
-  width: 200px;
+.info-img {
+  border: 8.375px double var(--color-dark);
+  border-radius: 7.5px;
+  height: 192px;
+  width: 256px;
 }
 
 
