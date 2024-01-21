@@ -20,6 +20,11 @@
   --font-title: "Lilita One", serif;
 }
 
+a:hover, button:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
 body {
   font-family: var(--font-body);
   margin: 0;
@@ -140,6 +145,17 @@ h2 {
   align-items: center;
 }
 
+.info-title {
+  color: var(--color-dark);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.info-subtitle {
+  font-weight: 200;
+  margin-top: 4px;
+}
+
 .info-img {
   border: 8.375px double var(--color-dark);
   border-radius: 7.5px;
@@ -240,19 +256,21 @@ footer {
   text-align: center;
 
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 footer > p {
-  margin: 0;
+  margin: 4.75px 0;
   padding: 0;
+}
+
+footer > p:first-of-type {
+  font-weight: 700;
+  font-size: 1.125rem;
 }
 
 .footer-link {
   color: var(--color-light);
-}
-
-.footer-link:hover {
-  opacity: 75%;
 }
