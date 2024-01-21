@@ -21,3 +21,8 @@ not optimized for mobile viewing. View on desktop for the intended user experien
     - Home page: [The Odin Project](https://www.theodinproject.com/)
     - Project specifications: [Project: Landing Page | The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page)
 - Images courtesy of [Pexels](https://www.pexels.com)
+    - *Sliced Cake on White Saucer* image by [Quang Nguyen Vinh](https://www.pexels.com/@quang-nguyen-vinh-222549/)
+    - *Mini Donuts on Black Grille* image by [Cats Coming](https://www.pexels.com/@catscoming/)
+    - *Blue Lollipop* image by [Somben Chea](https://www.pexels.com/@cheasomben/)
+    - *Cookies in Ceramic Plates* image by [Sara Santos](https://www.pexels.com/@sara-santos-381576/)
+    - *Sweet desserts covered with chocolate topping* image by [Ofir Eliav](https://www.pexels.com/@ofir-eliav-2397652/)
