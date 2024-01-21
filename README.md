@@ -5,7 +5,7 @@ after a variety of concepts in computer science, these delicacies offer unparall
 tech-savvy sweet tooth.
 
 **_Note:_ In an effort to maintain consistency with the trajectory of The Odin Project's curriculum, this project was
-not optimized for mobile viewing. View on desktop for the intended experience!**
+not optimized for mobile viewing. View on desktop for the intended user experience!**
 
 ## Technologies Used
 
